@@ -3,11 +3,11 @@ authors = ["Anton Whalley"]
 language = "en"
 multilingual = false
 src = "src"
-title = "brog documentation"
+title = "Mehal Technologies Documentation"
 
 [build]
 create-missing = false
 
 [output.html]
-git-repository-url = "https://github.com/mehal-tech/brog"
-edit-url-template = "https://github.com/mehal-tech/brog/edit/main/docs/{path}"
+git-repository-url = "https://github.com/mehal-tech/docs"
+edit-url-template = "https://github.com/mehal-tech/docs/edit/main/{path}"
