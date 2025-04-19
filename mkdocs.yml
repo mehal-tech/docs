@@ -52,7 +52,8 @@ nav:
         - platform/checklists/software.md
         - platform/checklists/hardware.md
       - 'Internals': platform/internals.md 
-  - Projects:        
+  - Projects:
+      - projects/index.md        
       - projects/overview.md
       - projects/configuration.md
       - projects/devices.md
