@@ -1,0 +1,69 @@
+site_name: CLOS Documentation
+site_description: Documentation for Smart Edge Systems using 
+site_url: https://docs.mehal.tech
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.expand
+    - content.code.copy
+  logo: assets/logo.png
+  palette:
+    primary: black
+    scheme: slate
+plugins:
+  - search
+  # - blog:
+  #     blog_toc: true
+  #     archive_date_format: MMMM yyyy
+  #     categories_allowed:
+  #       - clos
+  #       - article
+  #       - announcement
+  #     pagination_per_page: 5
+  - meta
+  - tags
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+nav:
+  - Welcome: 
+      - index.md
+      - get-started.md
+      - add-a-new-project.md
+      - 'Get help':
+          - 'Resources and tips' : get-help/resources-tips.md
+          - 'Ask Mehal' : get-help/ask-mehal.md
+  - Platform:
+      - 'What is CLOS?': platform/what-is-clos.md
+      - 'Who is CLOS for?': platform/who-is-clos-for.md
+      - Checklist:
+        - platform/checklists/software.md
+        - platform/checklists/hardware.md
+      - 'Internals': platform/internals.md 
+  - Projects:        
+      - projects/overview.md
+      - projects/configuration.md
+      - projects/devices.md
+      - projects/deployments.md
+      - projects/system-images.md
+      - projects/webhooks.md
+  #     - overviews/scenarios.md
+  # - Tutorials:
+  #     - howto/index.md
+  #     - howto/getting-started.md
+  # - Blog:
+  #    - blog/index.md
+  #    - blog/tags.md
+  # - Discussions: https://github.com/orgs/ubiquitous-factory/discussions
