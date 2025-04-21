@@ -1,6 +1,15 @@
-# Hardware
+# Solution Design 
 
-Below are topics that you should consider when selecting hardware:
+Clos is designed to be part of your over all edge solution. The following lists aim to highlight where Clos fits in to your overall design.
+
+## Managed Service Options
+
+|   |   |
+|---|---|
+|Remote access|| 
+|Virtual private network (VPN)|
+|User accounts|
+|Patching methodologies|
 
 ## Sizing 
 

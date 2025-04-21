@@ -8,6 +8,7 @@ theme:
     - navigation.indexes
     - navigation.expand
     - content.code.copy
+    - content.tooltips
   logo: assets/logo.png
   palette:
     primary: black
@@ -37,6 +38,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - abbr
 nav:
   - Welcome: 
       - index.md
@@ -46,12 +48,12 @@ nav:
           - 'Resources and tips' : get-help/resources-tips.md
           - 'Ask Mehal' : get-help/ask-mehal.md
   - Platform:
-      - 'What is CLOS?': platform/what-is-clos.md
-      - 'Who is CLOS for?': platform/who-is-clos-for.md
-      - Checklist:
-        - platform/checklists/software.md
-        - platform/checklists/hardware.md
-      - 'Internals': platform/internals.md 
+      - 'What is Clos?': platform/what-is-clos.md
+      - 'Who is Clos for?': platform/who-is-clos-for.md
+      # - Checklist:
+      #   - platform/checklists/software.md
+      #   - platform/checklists/hardware.md
+      # - 'Internals': platform/internals.md 
   - Projects:
       - projects/index.md        
       - projects/overview.md
